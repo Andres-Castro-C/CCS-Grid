@@ -140,3 +140,19 @@ header{
     background-color: #0077b6;
     grid-area: g;
 }
+
+.container-four{
+    height: 600px;
+    border: 5px solid #9b2226;
+    margin: 0 auto;
+    font-size: 3rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: minmax(40px, 100px) 100px minmax(40px, 100px);
+    grid-template-rows: repeat(3,auto);
+    place-content: center;
+}
+
+.item-4{
+    border: 3px solid #e9d8a6;
+}
