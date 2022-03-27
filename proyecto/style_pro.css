@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container-first-header{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 0 50px #adb5bd;
+}
+
+.container-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+}
+
+.text-header{
+    margin: 150px;
+    place-self: center;
+}
+
+.text-header h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.text-header p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.text-header .container-header-button{
+    width: 150px;
+    height: 35px;
+    margin-top: 20PX;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: #ee6c4d;
+    color: white;
+    border: none;
+}
+
+.photo-header{
+    place-self: center;
+}
+
+.photo-header img{
+    width: 400px;
+    height: 400px;
+}
+
+.container-first-main{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container-first-main h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.container-main-services{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "a a b c"
+    "a a d e";
+}
+
+.container-main-services img{
+    width: 300px;
+    height: 300px;
+}
+
+.video img{
+    width: 550px;
+    height: 610px;
+    place-content: center;
+}
+
+.container-main-services .video{
+    grid-area: a;
+}
+
+.container-main-services .img1{
+    grid-area: b;
+}
+
+.container-main-services .img2{
+    grid-area: c;
+}
+
+.container-main-services .img3{
+    grid-area: d;
+}
+
+.container-main-platos{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 20px;
+    place-items: center;
+}
+
+.container-main-platos img{
+    width: 200px;
+    height: 200px;
+}
